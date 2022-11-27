@@ -1,0 +1,45 @@
+body {
+    background-color: #A87003;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.map {
+    margin: 20px auto auto auto;
+    height: 450px;
+    width: 450px;
+    background-color: #FFDFA0;
+    border-spacing: 0px;
+    /* pointer-events: none; */
+    user-select: none;
+}
+
+
+.map td {
+    width: 33%;
+    height: 33%;
+    background-color: #FFDFA0;
+    padding: 0;
+    border: #FF6B00 1px solid;
+    user-select: none;
+
+}
+
+.map td img {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    margin: auto;
+    pointer-events: none;
+    user-select: none;
+}
+
+.title{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 100px;
+}
